@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин чоловічого одягу</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8B4513; /* Коричневий фон */
+            color: white;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #D2B48C; /* Світлий відтінок коричневого для заголовків */
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #D2B48C;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            margin-top: 20px;
+            width: 300px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Магазин чоловічого одягу</h1>
+
+    <h2>Популярні категорії одягу</h2>
+    <ul>
+        <li>Костюми</li>
+        <li>Сорочки</li>
+        <li>Джинси</li>
+        <li>Куртки</li>
+        <li>Взуття</li>
+    </ul>
+
+    <h2>Розмірна таблиця</h2>
+    <table>
+        <tr>
+            <th>Розмір</th>
+            <th>Обхват грудей (см)</th>
+            <th>Обхват талії (см)</th>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>96-100</td>
+            <td>80-84</td>
+        </tr>
+        <tr>
+            <td>L</td>
+            <td>104-108</td>
+            <td>88-92</td>
+        </tr>
+        <tr>
+            <td>XL</td>
+            <td>112-116</td>
+            <td>96-100</td>
+        </tr>
+    </table>
+
+    <h2>Чоловічі образи</h2>
+    <img src="https://example.com/image1.jpg" alt="Чоловічий образ 1">
+    <img src="https://example.com/image2.jpg" alt="Чоловічий образ 2">
+    <img src="https://example.com/image3.jpg" alt="Чоловічий образ 3">
+
+</body>
+</html>
